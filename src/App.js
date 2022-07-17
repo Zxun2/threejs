@@ -130,7 +130,7 @@ export default function App() {
             modelPath="/armchairGreen.gltf"
             position={0}
           >
-            <span>Shit... we even</span>
+            <span>And... we even</span>
             <span>got different colors</span>
           </HTMLContent>
           <HTMLContent
