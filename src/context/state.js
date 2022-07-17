@@ -1,10 +1,11 @@
 import { createRef } from "react";
 
-const state = {
+// Number of sections and pages we want
+const webState = {
   sections: 3,
   pages: 3,
   zoom: 1,
   top: createRef(),
 };
 
-export default state;
+export default webState;

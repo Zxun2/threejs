@@ -5,6 +5,7 @@ import state from "./state";
 
 const offsetContext = createContext(0);
 
+// Add smooth scrolling to each section
 function Section({ children, offset, factor, ...props }) {
   const { offset: parentOffset, sectionHeight, aspect } = useSection();
   const ref = useRef();
